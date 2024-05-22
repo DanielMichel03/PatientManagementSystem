@@ -249,6 +249,8 @@ dynamic deserializeParam<T>(
             return PaymentRow(data);
           case PatientRow:
             return PatientRow(data);
+          case UserRow:
+            return UserRow(data);
           case AdminRow:
             return AdminRow(data);
           case DoctorRow:

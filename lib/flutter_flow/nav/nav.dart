@@ -142,6 +142,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               name: 'AddDoctiming',
               path: 'addDoctiming',
               builder: (context, params) => AddDoctimingWidget(),
+            ),
+            FFRoute(
+              name: 'User',
+              path: 'user',
+              builder: (context, params) => UserWidget(),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ),

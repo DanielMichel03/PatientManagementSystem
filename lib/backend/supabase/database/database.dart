@@ -9,6 +9,7 @@ export 'tables/appointment.dart';
 export 'tables/treatment.dart';
 export 'tables/payment.dart';
 export 'tables/patient.dart';
+export 'tables/user.dart';
 export 'tables/admin.dart';
 export 'tables/doctor.dart';
 export 'tables/speciality.dart';

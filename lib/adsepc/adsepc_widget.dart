@@ -88,7 +88,7 @@ class _AdsepcWidgetState extends State<AdsepcWidget> {
                           padding: EdgeInsetsDirectional.fromSTEB(
                               50.0, 0.0, 0.0, 0.0),
                           child: Text(
-                            'Add Doctor',
+                            'Add Speciality',
                             style: FlutterFlowTheme.of(context)
                                 .headlineMedium
                                 .override(
@@ -276,14 +276,6 @@ class _AdsepcWidgetState extends State<AdsepcWidget> {
                                         borderRadius:
                                             BorderRadius.circular(12.0),
                                       ),
-                                      filled: true,
-                                      fillColor:
-                                          (_model.nameFocusNode?.hasFocus ??
-                                                  false)
-                                              ? FlutterFlowTheme.of(context)
-                                                  .primaryText
-                                              : FlutterFlowTheme.of(context)
-                                                  .secondaryBackground,
                                       contentPadding:
                                           EdgeInsetsDirectional.fromSTEB(
                                               16.0, 20.0, 16.0, 20.0),

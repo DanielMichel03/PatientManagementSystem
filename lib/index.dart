@@ -10,3 +10,4 @@ export '/add_doc/add_doc_widget.dart' show AddDocWidget;
 export '/addpatient/addpatient_widget.dart' show AddpatientWidget;
 export '/adsepc/adsepc_widget.dart' show AdsepcWidget;
 export '/add_doctiming/add_doctiming_widget.dart' show AddDoctimingWidget;
+export '/user/user_widget.dart' show UserWidget;
